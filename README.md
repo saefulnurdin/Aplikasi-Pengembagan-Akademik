@@ -1,11 +1,6 @@
 <h1 align=center>This is a Website Registration</h1>
 <p align=center>--Saeful Nurdin--</p>
 <h2 align="center">👀Demo => <a  target="_blank" href="https:"http://webpendaftaran.infinityfreeapp.com/">http://webpendaftaran.infinityfreeapp.com🚀</a></h2>
- <p align="center">
-  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/Aplikasi-Pengembangan-Akademik" alt="code size">
-  <a href="https://github.com/gethugothemes/saefulnurdin/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/gethugothemes/Aplikasi-Pengembangan-Akademik" alt="contributors"></a>
- </p>
 <h2>Beranda</h2>
 <p align="center">
   <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/header.png"
