@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+	font-family: serif;
+    /* min-height: 4000; */
+}
+
+header{
+	background-color: white;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	border-bottom: 3px solid darkred;
+}
+
+.logo{
+	width: 50px;
+}
+
+.title{
+	margin-left: 10px;
+	flex-grow: 1;
+	font-family: serif;
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+}
+
+.button{
+	margin: 5px 10px;
+	padding: 9px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: monospace;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+.button1{
+	background-color: white;
+	color: black;
+}
+
+.button1:hover{
+	background-color: black;
+}
+
+.button:hover{
+	color: white;
+}
+
+.button:active{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button2{
+	color: white;
+	background-color: black;
+}
+
+.button2:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button2:active{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav{
+	position: sticky;
+	top: 0;
+	margin-bottom: 4px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-list{
+	display: flex;
+	list-style: none;
+	background-color: whitesmoke;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.nav-list li{
+	margin: 0 15px;
+	padding: 10px;
+}
+
+.nav-list a{
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.nav-list a:hover{
+	color: darkred;
+}
+
+.nav-list a:active{
+	color: indianred;
+}
+
+
+.main-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow: 3;
+}
+
+.card {
+    flex: 3;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.biaya{
+	text-align: center;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.program-studi{
+	text-align: center;
+}
+
+.program-studi-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.program-studi-button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+}
+
+.program-studi-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sistem{
+	text-align: center;
+}
+
+.gallery{
+	text-align: center;
+}
+
+.gallery-kampus{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.kampus{
+	width: 250px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.main-content-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.content-form {
+    background-color: #f9f9f9;
+    flex: 3;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulir-judul{
+	text-align: center;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button3{
+	width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.button3:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+   .content {
+        display: block;
+    }
+
+    .card .sidebar {
+        width: 100%;
+    }
+
+    .card{
+    	margin-bottom: 20px;
+    }
+
+    .sidebar{
+    	clear: both;
+    }
+
+    .program-studi-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 3px;
+    }
+
+    .title {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        font-size: 10px;
+        margin: 2px 5px;
+    }
+
+    .nav-list {
+        padding: 5px;
+    }
+
+    .nav-list li a {
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+        .program-studi-button {
+        width: calc(50% - 5px); 
+        text-align: center;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea, button3 {
+        font-size: 14px;
+    }
+}

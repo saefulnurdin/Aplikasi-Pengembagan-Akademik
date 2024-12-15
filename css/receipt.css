@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-elements button {
+    display: none; 
+}
+
+.hide-elements body {
+    background-color: transparent; 
+}
+
+.container {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff; 
+    margin: auto;
+    border-radius: 2px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: row-reverse; 
+}
+
+.header img {
+    width: 100px;
+    margin-left: 20px; 
+}
+
+.header .text {
+    flex: 1;
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    background-color: blue; 
+    color: white;
+}
+
+.button2{
+    color: white;
+    background-color: red; 
+}
+.button1, .button2{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+.button2:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Menyembunyikan tombol saat mencetak */
+@media print {
+    #download, .button2 {
+        display: none !important;
+    }
+}
