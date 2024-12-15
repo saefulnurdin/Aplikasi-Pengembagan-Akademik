@@ -8,35 +8,35 @@
  </p>
 <h2>Beranda</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/header.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/header.png"
     alt="Beranda" width="100%">
 </p>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/footer2.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/footer2.png"
     alt="Beranda" width="100%">
 </p>
 <h2>Pendaftaran</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/form-pendaftaran.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/form-pendaftaran.png"
     alt="Pendaftaran" width="100%">
 </p>
 <h2>Notifikasi</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/notifikasi.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/notifikasi.png"
     alt="Notifikasi" width="100%">
 </p>
 <h2>Struk Pembayaran</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/struk.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/struk.png"
     alt="Struk" width="100%">
 </p>
 <h2>Download Struk</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/struk2.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/struk2.png"
     alt="Download Struk" width="100%">
 </p>
 <h2>Database</h2>
 <p align="center">
-  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembagan-Akademik/blob/main/demo/database.png"
+  <img src="https://github.com/saefulnurdin/Aplikasi-Pengembangan-Akademik/blob/main/demo/database.png"
     alt="Database" width="100%">
 </p>
